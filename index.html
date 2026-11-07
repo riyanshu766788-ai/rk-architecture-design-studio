@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="RK Architecture & Design Studio offers 2D house plans, 3D elevation, exterior and interior design, and AutoCAD drafting.">
+<title>RK Architecture & Design Studio | House Plans & 3D Design</title>
+<style>
+:root{--ink:#17202b;--muted:#647184;--gold:#c99b52;--cream:#f7f5f0;--white:#fff;--line:#e7e2d8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);z-index:5;border-bottom:1px solid var(--line)}
+nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:.3px}.brand span{color:var(--gold)}.navlinks{display:flex;gap:22px;font-size:14px;color:#465160}
+.btn{display:inline-block;padding:12px 19px;border-radius:5px;background:var(--gold);color:#15191f;font-weight:700;border:0;cursor:pointer}.btn.dark{background:var(--ink);color:#fff}.btn.outline{background:transparent;border:1px solid #fff;color:#fff}
+.hero{background:linear-gradient(110deg,#121c28ed,#182838d9),linear-gradient(45deg,#5a5143,#b8a17d);color:#fff;padding:95px 0 88px}
+.eyebrow{color:#e2bd7e;text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:700}.hero h1{font-size:clamp(38px,6vw,66px);line-height:1.08;max-width:760px;margin:15px 0}.hero p{max-width:620px;color:#d9e0e7;font-size:17px;margin-bottom:28px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.section{padding:74px 0}.section.alt{background:var(--cream)}.section-head{max-width:680px;margin-bottom:32px}.section-head h2{font-size:34px;line-height:1.2;margin:8px 0}.section-head p{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service,.project,.price,.panel{border:1px solid var(--line);border-radius:9px;background:#fff;overflow:hidden}.service{padding:24px}.service .num{color:var(--gold);font-weight:800;font-size:13px}.service h3{margin:8px 0}.service p,.project p{color:var(--muted);font-size:14px;margin:0}
+.visual{height:190px;display:flex;align-items:end;padding:18px;color:white;font-weight:700;background:linear-gradient(140deg,#26394a,#7d8b91 55%,#c5b69e)}
+.visual.v2{background:linear-gradient(140deg,#1d2a35,#687a82 55%,#d0b18a)}.visual.v3{background:linear-gradient(140deg,#34413f,#9d927d 55%,#e0d4bf)}.visual.v4{background:linear-gradient(140deg,#34333d,#8c7772 55%,#d6c5b0)}.visual.v5{background:linear-gradient(140deg,#233c45,#708c8a 55%,#c9c4b2)}.visual.v6{background:linear-gradient(140deg,#3b3430,#9d8165 55%,#e1cba8)}
+.project-info{padding:16px}.project-info h3{margin:0 0 5px;font-size:17px}
+.price{padding:22px}.price h3{margin:0 0 8px}.price strong{font-size:23px}.price p{color:var(--muted);font-size:14px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding:20px;background:#fff;border-radius:8px;border:1px solid var(--line)}.step b{color:var(--gold)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.panel{padding:25px}.panel p{color:var(--muted)}
+label{display:block;font-size:13px;font-weight:700;margin:12px 0 5px}input,select,textarea{width:100%;padding:12px;border:1px solid #d9dce0;border-radius:5px;font:inherit;background:#fff}textarea{min-height:100px;resize:vertical}
+.note{font-size:12px;color:var(--muted)}footer{background:#121c28;color:#dce2e8;padding:30px 0;font-size:13px}
+.mobile-menu{display:none}
+@media(max-width:760px){.navlinks{display:none}.grid,.steps,.contact-grid{grid-template-columns:1fr}.hero{padding:70px 0}.section{padding:55px 0}.section-head h2{font-size:29px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#home">RK <span>ARCHITECTURE</span><br><small style="font-size:10px;letter-spacing:2px;color:#687383"> & DESIGN STUDIO</small></a>
+<div class="navlinks"><a href="#services">Services</a><a href="#projects">Gallery</a><a href="#pricing">Price List</a><a href="#process">How It Works</a><a href="#contact">Contact</a></div>
+<a class="btn" href="#contact">Get a Quote</a>
+</nav></div></header>
+<main id="home">
+<section class="hero"><div class="wrap">
+<div class="eyebrow">Plan • Design • Visualize | प्लान • डिजाइन • विज़ुअलाइज़</div>
+<h1>Designing spaces.<br>Building your vision.</h1>
+<p>Thoughtful house plans, modern elevations, beautiful 3D exteriors and interiors — designed around your plot, needs and budget. <br><span lang="hi">आपकी जमीन, जरूरत और बजट के अनुसार घर का नक्शा, मॉडर्न एलिवेशन और 3D डिजाइन।</span></p>
+<div class="hero-actions"><a class="btn" href="#contact">Start Your Project</a><a class="btn outline" href="#projects">View Design Gallery</a></div>
+</div></section>
+<section class="section"><div class="wrap">
+<div class="section-head"><div class="eyebrow">What we do | हमारी सेवाएँ</div><h2>Design services for every space</h2><p>From a first floor-plan idea to detailed visual presentations, explore the services available through RK Architecture & Design Studio.<br><span lang="hi">शुरुआती नक्शे से लेकर शानदार 3D डिजाइन तक, हमारी सभी सेवाएँ यहाँ देखें।</span></p></div>
+<div class="grid">
+<div class="service"><div class="num">01 / PLANNING</div><h3>2D House Plan</h3><p>1BHK, 2BHK, 3BHK, duplex and residential or commercial layouts.</p></div>
+<div class="service"><div class="num">02 / FACADE</div><h3>3D Elevation</h3><p>Modern front elevation concepts for independent houses and buildings.</p></div>
+<div class="service"><div class="num">03 / EXTERIOR</div><h3>3D Exterior Design</h3><p>Photorealistic exterior concepts, materials, colours and lighting.</p></div>
+<div class="service"><div class="num">04 / INTERIOR</div><h3>Interior Design</h3><p>Bedroom, living room, kitchen, ceiling and furniture concepts.</p></div>
+<div class="service"><div class="num">05 / DRAFTING</div><h3>AutoCAD Drafting</h3><p>Accurate 2D drafting, plans, sections, elevations and revisions.</p></div>
+<div class="service"><div class="num">06 / SUPPORT</div><h3>Design Consultation</h3><p>Discuss your plot, requirements, preferred style and project scope.</p></div>
+</div></div></section>
+<section class="section alt" id="projects"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Selected work | हमारे डिजाइन</div><h2>Design Gallery</h2><p>Selected sample tiles and uploaded project PDFs are shown below. Replace remaining sample tiles with your own completed work before publishing. <br><span lang="hi">नीचे आपके अपलोड किए गए प्रोजेक्ट PDF भी जोड़े गए हैं। बाकी नमूना डिजाइन की जगह अपने असली काम की तस्वीरें लगाएँ।</span><br><span lang="hi">प्रकाशित करने से पहले इन नमूना डिजाइन की जगह अपने असली प्रोजेक्ट की तस्वीरें लगाएँ।</span></p></div>
+<div class="grid">
+<div class="project"><div class="visual">2D FLOOR PLAN</div><div class="project-info"><h3>Residential Floor Plan</h3><p>2D planning concept</p></div></div>
+<div class="project"><div class="visual v2">MODERN ELEVATION</div><div class="project-info"><h3>Modern House Front</h3><p>3D elevation concept</p></div></div>
+<div class="project"><div class="visual v3">DUPLEX DESIGN</div><div class="project-info"><h3>Duplex Residence</h3><p>Exterior concept</p></div></div>
+<div class="project"><div class="visual v4">LIVING ROOM</div><div class="project-info"><h3>Contemporary Living</h3><p>3D interior concept</p></div></div>
+<div class="project"><div class="visual v5">MODULAR KITCHEN</div><div class="project-info"><h3>Modern Kitchen</h3><p>Interior concept</p></div></div>
+<div class="project"><div class="visual v6">BEDROOM DESIGN</div><div class="project-info"><h3>Warm Minimal Bedroom</h3><p>3D interior concept</p></div></div>
+<div class="project"><div class="visual">BUILDING ELEVATION</div><div class="project-info"><h3>G+3 Front Elevation</h3><p>Uploaded elevation drawing · PDF</p><p><a class="btn dark" href="projects/elevation.pdf" target="_blank" rel="noopener">View PDF</a></p></div></div>
+<div class="project"><div class="visual v2">FLOOR PLAN & ELECTRICAL</div><div class="project-info"><h3>Multi-floor Floor Plan</h3><p>Uploaded floor plan and electrical layout · PDF</p><p><a class="btn dark" href="projects/floor-plan-electrical.pdf" target="_blank" rel="noopener">View PDF</a></p></div></div>
+</div></div></section>
+<section class="section" id="pricing"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Transparent process | कीमत</div><h2>Price List</h2><p>Final fees depend on plot size, drawing details, number of revisions and project requirements. Request a quote for an accurate estimate.<br><span lang="hi">फाइनल कीमत प्लॉट के साइज, ड्रॉइंग और काम की जरूरत पर निर्भर करेगी। सही कीमत के लिए पूछताछ करें।</span></p></div>
+<div class="grid">
+<div class="price"><h3>2D House Plan</h3><strong>Get a Quote</strong><p>Share plot dimensions and room requirements to receive a project estimate.</p><a class="btn dark" href="#contact">Enquire</a></div>
+<div class="price"><h3>3D Elevation / Exterior</h3><strong>Get a Quote</strong><p>Share your plan, reference images and preferred design style.</p><a class="btn dark" href="#contact">Enquire</a></div>
+<div class="price"><h3>3D Interior Design</h3><strong>Get a Quote</strong><p>Share room dimensions, photos and the spaces you want designed.</p><a class="btn dark" href="#contact">Enquire</a></div>
+</div><p class="note">No fixed prices are published yet. Add your approved rates before making this page public.</p>
+</div></section>
+<section class="section alt" id="process"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Simple steps</div><h2>How to book a design</h2></div>
+<div class="steps"><div class="step"><b>01</b><h3>Send requirements</h3><p>Tell us your plot size, location, floor count and design needs.</p></div><div class="step"><b>02</b><h3>Confirm quotation</h3><p>We discuss scope, delivery time, revisions and the final fee.</p></div><div class="step"><b>03</b><h3>Design delivery</h3><p>Work starts after confirmation and agreed payment arrangements.</p></div></div>
+</div></section>
+<section class="section" id="contact"><div class="wrap">
+<div class="section-head"><div class="eyebrow">Let's discuss | संपर्क करें</div><h2>Tell us about your project</h2><p>Fill in the details to send your enquiry on WhatsApp.<br><span lang="hi">अपनी जरूरत की जानकारी भरें और WhatsApp पर भेजें।</span></p></div>
+<div class="contact-grid">
+<div class="panel"><h3>Project Enquiry / Booking | प्रोजेक्ट पूछताछ / बुकिंग</h3>
+<form id="enquiry">
+<label>Your name | आपका नाम</label><input id="customer" required placeholder="Enter your name">
+<label>WhatsApp number | आपका मोबाइल नंबर</label><input id="phone" placeholder="Your mobile number">
+<label>Service required | कौन-सी सेवा चाहिए?</label><select id="service"><option>2D House Plan</option><option>3D Elevation</option><option>3D Exterior Design</option><option>3D Interior Design</option><option>AutoCAD Drafting</option><option>Consultation</option></select>
+<label>Plot / room size | प्लॉट / कमरे का साइज</label><input id="size" placeholder="e.g. 30 ft × 40 ft">
+<label>Project details | काम की जानकारी</label><textarea id="details" placeholder="Location, floors, rooms, preferred style, deadline..."></textarea>
+<button class="btn" type="submit">Send Enquiry on WhatsApp | WhatsApp पर भेजें</button>
+<p class="note">WhatsApp contact connected: +91 76678 81045. <span lang="hi">WhatsApp नंबर जोड़ दिया गया है।</span></p>
+</form></div>
+<div class="panel"><h3>RK Architecture & Design Studio</h3><p><b>Founder:</b> Riyanshu Kumar | <span lang="hi">संस्थापक: रियांशु कुमार</span></p><p>2D planning • 3D elevation • Exterior • Interior • CAD drafting</p><p><b>Service area:</b> India (online enquiries)</p><p><b>WhatsApp:</b> +91 76678 81045</p><p><b>Online payment:</b> Add your UPI ID or payment gateway after confirming the booking process. Never publish personal banking details.</p><p class="note">This is a starter website template. Enquiry automation, payment confirmation and live booking require connecting a form/database and a payment provider. Do not accept payment until your rates, business details and refund terms are clear.</p></div>
+</div></div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> RK Architecture & Design Studio · Founder: Riyanshu Kumar. All rights reserved.</div></footer>
+<script>
+const BUSINESS_WHATSAPP = "917667881045"; // India country code + supplied WhatsApp number.
+document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("enquiry").addEventListener("submit", function(e){
+ e.preventDefault();
+ const msg = `New project enquiry%0AName: ${encodeURIComponent(document.getElementById("customer").value)}%0ACustomer phone: ${encodeURIComponent(document.getElementById("phone").value)}%0AService: ${encodeURIComponent(document.getElementById("service").value)}%0ASize: ${encodeURIComponent(document.getElementById("size").value)}%0ADetails: ${encodeURIComponent(document.getElementById("details").value)}`;
+ if(BUSINESS_WHATSAPP.includes("X")){alert("Website setup pending: add your WhatsApp business number in the code first.");return;}
+ window.open(`https://wa.me/${BUSINESS_WHATSAPP}?text=${msg}`,"_blank");
+});
+</script>
+</body></html>
